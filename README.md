@@ -34,3 +34,7 @@ Installation Steps:
 
 This application emulates a browser instance (such as Google Chrome) inside the **Docker Container** system. 
 The browser then opens WhatsApp Web and sends the message using the browser instance.
+
+## Configuration
+
+You can change the subdomain and admin number in the `config.json`. The admin number is only used to notify if the API is running correctly.
