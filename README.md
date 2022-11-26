@@ -22,7 +22,17 @@ https://rianto-public.loca.lt/send_wa_message/{WA number}/{Message}
 
 ## Installation and Usage
 
-Installation Steps:
+**Installation Steps for Windows**
+1. Download Docker Desktop and Install [Click Here](https://www.docker.com/products/docker-desktop/)
+2. Download this source code zip file [Click Here](https://github.com/aryadytm/wa-api/archive/refs/tags/v0.1.1.zip)
+3. Extract this zip file anywhere
+4. Go to the folder where extracted files located
+5. Open ``terminal`` or ``cmd`` at that folder
+6. In the terminal, run `docker-compose up` or `docker compose up`. Then wait until finished.
+7. Scan WhatsApp QR code by visiting `https://rianto-public.loca.lt/link_wa_account` 
+8. API `https://rianto-public.loca.lt/send_wa_message/{WA number}/{Message}` is ready to use!
+
+**Installation Steps for Ubuntu (Linux):**
 1. Run `git clone https://github.com/aryadytm/wa-api`
 2. Change directory into `wa-api` by running `cd wa-api`
 3. If your OS is **Ubuntu**, install Docker by running `sh install-docker.sh`. Otherwise, look for [Docker Installation Tutorials](https://docs.docker.com/engine/install/)
