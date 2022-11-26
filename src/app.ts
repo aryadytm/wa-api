@@ -40,6 +40,11 @@ app.get('/', (req, res) => {
 app.get('/link_wa_account', (req, res) => {
   
   var resp = client.qrImageStr
+  
+  if (!client.isConnected) {
+    res.type('json')
+  }
+  
   return res.send(resp)
 })
 
