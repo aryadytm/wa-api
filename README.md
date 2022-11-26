@@ -2,7 +2,7 @@
 
 ## API Endpoints
 
-(GET) Link WA Account - Scan QR Code (Required Before Able to Send WA Messages)
+(GET) Link WA Account - Scan QR Code *(Required Before Able to Send WA Messages)*
 ```
 https://rianto-public.loca.lt/link_wa_account
 ```
