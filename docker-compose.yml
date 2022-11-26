@@ -8,8 +8,9 @@ services:
     volumes:
     - ./data:/workdir/data
     - ./src:/workdir/src
-    - ./package.json:/workdir/package.json
     - ./wwebjs_auth:/workdir/wwebjs_auth
+    - ./package.json:/workdir/package.json
+    - ./config.json:/workdir/config.json
     environment:
     - TZ=Asia/Jakarta
     command: sh -c "npm install && npx ts-node -T src/app.ts"
