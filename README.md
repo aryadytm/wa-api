@@ -2,7 +2,7 @@
 
 ## API Endpoints
 
-(GET) Link WA Account - Scan QR Code *(Required Before Able to Send WA Messages)*
+(GET) Link WA Account - Scan QR Code **(Required Before Able to Send WA Messages)** 
 ```
 https://rianto-public.loca.lt/link_wa_account
 ```
@@ -18,12 +18,12 @@ https://rianto-public.loca.lt/send_wa_message/{WA number}/{Message}
 - At least 4 GB of RAM
 - At least Dual core CPU: AMD or Intel (Tested on AMD Ryzen 7 3700X)
 - 64-bit kernel and CPU support for virtualization
-- For servers, it must be able to run *Docker*
+- **Compatible with Docker (Mandatory!)**
 
 ## Installation and Usage
 
 Installation Steps:
-1. *Mandatory:* Install *Docker* and *Docker Compose* on your system ([Tutorial](https://docs.docker.com/engine/install/))
+1. **Mandatory:** Install **Docker** and **Docker Compose** on your system ([Tutorial](https://docs.docker.com/engine/install/))
 2. Run `git clone https://github.com/aryadytm/wa-api`
 3. Change directory into `wa-api`
 4. Run `docker-compose up` then wait for few minutes
@@ -32,5 +32,5 @@ Installation Steps:
 
 ## How it Works?
 
-This application emulates a browser instance (such as Google Chrome) inside the *Docker Container* system. 
+This application emulates a browser instance (such as Google Chrome) inside the **Docker Container** system. 
 The browser then opens WhatsApp Web and sends the message using the browser instance.
