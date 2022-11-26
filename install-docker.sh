@@ -22,4 +22,6 @@ sleep 5
 
 # Docker Compose
 sudo apt-get install docker-compose-plugin
+sudo chmod +x /usr/local/bin/docker-compose
+newgrp docker
 printf '\nDocker Compose installed successfully\n\n'
