@@ -69,7 +69,7 @@ app.get('/send_wa_message/:targetNum/:message', (req, res) => {
     return res.status(400).send(`You have not linked any account. Please link it first.`)
   }
   
-  if (req.get('user-agent').toLowerCase().includes("whatsapp")) {
+  if (String(req.get('user-agent')).toLowerCase().includes("whatsapp")) {
     return res.status(400).send(`Not allowed`)
   }
   
